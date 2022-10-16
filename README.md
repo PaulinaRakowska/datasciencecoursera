@@ -18,3 +18,20 @@ Here are the data for the project:
  - Tide data set was created with the average of each variable for each subject and each activity.
 
 All above steps are described in **data_analysis.R** file. It also contains code required to clean the data.
+
+## Code Books
+
+File **CodeBook.md** contains a short description of source of data and a sample of each variable.
+
+Separate codebook was also obtained using **dataMaid** package:
+
+> install.packages('dataMaid')
+> 
+> library(dataMaid)
+> 
+> makeCodebook(tidy_data2)
+
+There were obtained two files:
+
+- **codebook_tidy_data2.Rmd**
+- **codebook_tidy_data2.pdf**
