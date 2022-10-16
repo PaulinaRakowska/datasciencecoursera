@@ -105,5 +105,5 @@ tidy_data2 <- tidy_data %>% group_by(subject, activity) %>% summarise_all(mean, 
 str(tidy_data2)
 head(tidy_data2)
 
-### write tidy_data2 to csv.file
-write.csv(tidy_data2, "tidy_data2.csv", row.names = FALSE)
+### write tidy_data2 as txt file
+write.table(tidy_data2, "tidy_data2.txt", row.names = FALSE)
