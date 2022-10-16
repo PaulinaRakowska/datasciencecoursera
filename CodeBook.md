@@ -64,7 +64,7 @@ There were six activities as follows (according to **activity_labels.txt**):
 
 6 LAYING
 
-The complete list of variables and short representation is available below:
+The full list of variables with a short representation is available below:
 > str(tidy_data2)
 
 'data.frame':	**180 obs. of  68 variables**:
