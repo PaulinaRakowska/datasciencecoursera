@@ -10,7 +10,7 @@ Here are the data for the project:
  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
  
  ## Tidy dataset
- Tidy data (**tidy_data2.csv** file) was obtained from above source as follow:
+ Tidy data (**tidy_data2.txt** file) was obtained from above source as follow:
  - The trainig and the test sets were merged to create one data set.
  - Only features with *mean()* and *std()* components were extracted for each measurement (according to **features.txt** file from the project data)
  - Activities in table were assigned according to **activity_labels.txt** file from project data.
